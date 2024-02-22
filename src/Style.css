@@ -151,6 +151,12 @@ ul {
   color: inherit;
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* small screen */
 
 @media (max-width: 1000px) {
